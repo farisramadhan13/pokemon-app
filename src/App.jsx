@@ -93,6 +93,7 @@ const App = () => {
         />
         <Route path="/pokemon/:name" element={<PokemonDetail />} />
       </Routes>
+      <div className='text-white font-lg font-semibold'>Dibuat oleh Faris Ramadhan 2024</div>
     </div>
   );
 };
